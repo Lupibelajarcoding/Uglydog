@@ -39,9 +39,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
                         )}
 
                         {/* /#main-nav */}
-                        <a onClick={handleConnect} data-toggle="modal" data-target="#popup_bid" className="tf-button style2">
-                            Connect
-                        </a>
+                        <button onClick={handleConnect} className="tf-button style2">
+                            Login
+                        </button>
                         <div className={`mobile-button ${isMobileMenu ? "active" : ""}`} onClick={handleMobileMenu}><span /></div>{/* /.mobile-button */}
                     </div>
                 </div>
